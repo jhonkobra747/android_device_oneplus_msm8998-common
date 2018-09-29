@@ -5,7 +5,7 @@
 # FRP partition
 /dev/block/platform/soc/1da4000.ufshc/by-name/config            u:object_r:frp_block_device:s0
 # Persist partition
-/dev/block/platform/soc/1da4000.ufshc/by-name/persist           u:object_r:persist_block_device:s0
+#/dev/block/platform/soc/1da4000.ufshc/by-name/persist           u:object_r:persist_block_device:s0
 
 # Bluetooth
 /sys/devices/bt_wcn3990/rfkill/rfkill0/state                    u:object_r:sysfs_bluetooth_writable:s0
